@@ -38,7 +38,25 @@ function App() {
         <br />
         <input type="submit" value="Add User" />
       </form>
-      <Link style={{backgroundColor:'blue',marginTop:'20px', borderRadius:'20px',padding:'5px'}} to='/users'>All Users</Link>
+      <Link
+        style={{
+          backgroundColor: "blue",
+          color: "white",
+          marginTop: "20px",
+          marginBottom: "30px",
+          marginLeft: "10px",
+          marginRight: "10px",
+          borderRadius: "25px",
+          padding: "10px 20px",
+          textDecoration: "none",
+          display: "inline-block",
+          fontWeight: "bold",
+          transition: "0.3s ease",
+        }}
+        to="/users"
+      >
+        All Users
+      </Link>
     </>
   );
 }

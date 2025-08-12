@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 const Update = () => {
   const loadedData = useLoaderData();
@@ -36,6 +36,7 @@ const Update = () => {
         <br />
         <input type="submit" value="Update User" />
       </form>
+      <Link to='/'>Home</Link>
     </div>
   );
 };
